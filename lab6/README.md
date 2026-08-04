@@ -24,13 +24,15 @@ Key learning outcomes include:
 
 ##  Repository Structure
 
-```text
-.
 ├── k8s/
-│   ├── pod.yaml            # Basic Nginx pod declaration
-│   ├── deployment.yaml     # Scalable frontend application deployment
-│   ├── service.yaml        # Service definition mapping web traffic
-│   ├── postgres.yaml       # PostgreSQL StatefulSet & VolumeClaimTemplate
-│   └── broken-pod.yaml     # Faulty manifest for debugging exercises
+│   ├── api-deployment.yaml
+│   ├── api-service.yaml
+│   ├── broken-pod.yaml
+│   ├── cache-deployment.yaml
+│   ├── cache-service.yaml
+│   ├── pod-frontend.yaml
+│   ├── postgres-service.yaml
+│   ├── postgres-statefulset.yaml
+│   └── service-frontend.yaml
 ├── answers.md              # Detailed solutions for Checkpoints Q1–Q9
 └── README.md               # Repository documentation
