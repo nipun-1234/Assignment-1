@@ -23,16 +23,24 @@ Key learning outcomes include:
 ---
 
 ##  Repository Structure
-
-├── k8s/
-│   ├── api-deployment.yaml
-│   ├── api-service.yaml
-│   ├── broken-pod.yaml
-│   ├── cache-deployment.yaml
-│   ├── cache-service.yaml
-│   ├── pod-frontend.yaml
-│   ├── postgres-service.yaml
-│   ├── postgres-statefulset.yaml
-│   └── service-frontend.yaml
-├── answers.md              # Detailed solutions for Checkpoints Q1–Q9
-└── README.md               # Repository documentation
+ lab6/
+    ├── k8s/
+    │   ├── pod-frontend.yaml
+    │   ├── deployment-frontend.yaml
+    │   ├── service-frontend.yaml
+    │   ├── api-deployment.yaml
+    │   ├── api-service.yaml
+    │   ├── cache-deployment.yaml
+    │   ├── cache-service.yaml
+    │   ├── postgres-statefulset.yaml
+    │   ├── postgres-service.yaml
+    │   └── broken-pod.yaml
+    │
+    ├── screenshots/
+    │   ├── task1.1.png
+    │   ├── task2.1.png
+    │   ├── ...
+    │   └── task10.1.png
+    │
+    ├── answers.md
+    └── README.md
