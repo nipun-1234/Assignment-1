@@ -28,23 +28,17 @@ Key learning outcomes include:
 ```text
 lab6/
 ├── k8s/
-│   ├── pod-frontend.yaml
-│   ├── deployment-frontend.yaml
-│   ├── service-frontend.yaml
 │   ├── api-deployment.yaml
 │   ├── api-service.yaml
+│   ├── broken-pod.yaml
 │   ├── cache-deployment.yaml
 │   ├── cache-service.yaml
+│   ├── pod-frontend.yaml
 │   ├── postgres-statefulset.yaml
 │   ├── postgres-service.yaml
-│   └── broken-pod.yaml
+│   └── service-frontend.yaml
 │
 ├── screenshots/
-│   ├── task1.1.png
-│   ├── task2.1.png
-│   ├── ...
-│   └── task10.1.png
-│
 ├── answers.md
 └── README.md
 ```
