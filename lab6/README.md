@@ -22,11 +22,11 @@ Key learning outcomes include:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 .
-├── manifests/
+├── k8s/
 │   ├── pod.yaml            # Basic Nginx pod declaration
 │   ├── deployment.yaml     # Scalable frontend application deployment
 │   ├── service.yaml        # Service definition mapping web traffic
